@@ -1,10 +1,21 @@
-var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+var user = {
+    name: "John",
+    age: 34,
+    hobby: "Soccer",
+    isMarried: false,
+    spells: ["abrakadabra", "shazam", "boo"],
+    shout: function() {
+        console.log("AHHHHHH");
+    }
+};
 
-array.shift();
-array.sort();
-array.push("Kiwi");
-array.splice(0, 1);
-array.reverse();
-
-var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
-array[1][1][0];
+let list = [
+    {
+        username: "andy",
+        password: "123"
+    },
+    {
+        username: "jess",
+        password: "serse"
+    }
+];
