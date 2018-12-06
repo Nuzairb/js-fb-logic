@@ -9,3 +9,11 @@ var sayBye = function() {
 }
 
 sayBye();
+
+function sing(song) {
+    console.log(song);
+}
+
+sing("Laaa laaa daaa");
+sing("hellooooo");
+sing("backst back right");
