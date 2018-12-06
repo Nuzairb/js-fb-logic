@@ -7,7 +7,7 @@ var database = [
 
 var newsFeed = [
     {
-        username: "Nuz",
+        username: "Nuzy",
         timeline: "So tired from all that learning"
     },
     {
