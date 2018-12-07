@@ -43,7 +43,7 @@ function signIn(username, password) {
     }
 }
 
-var userNamePrompt = prompt("What's your username?");
-var passwordPrompt = prompt("What's your Password?");
+var userNamePrompt = prompt("What\'s your username?");
+var passwordPrompt = prompt("What\'s your Password?");
 
 signIn(userNamePrompt, passwordPrompt);
