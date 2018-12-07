@@ -29,3 +29,15 @@ function signIn(user, pass) {
 }
 
 signIn(userNamePrompt, passwordPrompt);
+
+var todos = [
+    "clean room",
+    "brush teeth",
+    "exercise",
+    "study javascript",
+    "eat healthy"
+];
+
+for (var i=0; i < todos.length; i++) {
+    console.log(todos[i] + "!");
+}
