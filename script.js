@@ -10,6 +10,14 @@ var database = [
     {
         username: "ingrid",
         password: "777"
+    },
+    {
+        username: "john",
+        password: "123456"
+    },
+    {
+        username: "doe",
+        password: "1234"
     }
 ];
 
@@ -26,8 +34,7 @@ var newsFeed = [
 
 function isUserValid(username, password) {
     for (var i = 0; i < database.length; i++) {
-        if (database[i].username === username &&
-            database[i].password === password) {
+        if (database[i].username === username && database[i].password === password) {
             return true;
         }
     }
